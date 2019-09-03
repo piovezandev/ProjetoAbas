@@ -32,7 +32,7 @@ const TabNavigator = createBottomTabNavigator(
           iconName = 'md-person';
         }
 
-        // You can return any component that you like here!
+     
         return <IconComponent name={iconName} size={30} color={tintColor} />;
       },
     })
